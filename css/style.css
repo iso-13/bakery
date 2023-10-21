@@ -1,0 +1,283 @@
+/* start global style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 95%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #303030;
+  line-height: 1.5;
+}
+
+p {
+  color: #686868;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+/* end global style */
+
+/* page style */
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* start home section */
+.home-section {
+  background-image: url(../images/home.jpg);
+  background-size: 100% 100%;
+  padding: 15px 55px;
+}
+
+.nav-bar {
+  height: 60px;
+}
+
+.logo {
+  width: 180px;
+  height: 100%;
+  display: inline-block;
+}
+
+.nav-bar .nav-links {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 33%;
+}
+
+.nav-bar .nav-links li {
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.nav-bar .nav-links li a {
+  color: #e0dcd2;
+}
+
+.home {
+  text-align: center;
+  color: #fff;
+  margin: 180px auto;
+}
+
+.home h1 {
+  font-size: 76px;
+  line-height: 2;
+}
+
+.home p {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 15px 28px;
+  color: inherit;
+  font-family: inherit;
+  font-size: 17px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  margin: 15px 5px;
+}
+.learn {
+  background-color: #8e7754;
+  border: none;
+}
+/* end home section */
+
+.section {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+  background-color: #f8f8f8;
+}
+
+.photo {
+  width: 48%;
+  display: inline-block;
+}
+
+.text {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 75px;
+  padding-right: 32px;
+}
+
+.list li {
+  color: #686868;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.list li i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #8e7754;
+  background-color: transparent;
+  text-align: center;
+  line-height: 2;
+  margin-right: 10px;
+  border: 1px solid #8e7754;
+}
+
+.list.revert li i {
+  color: #fff;
+  background-color: #8e7754;
+}
+
+/* start our baking section */
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.title p {
+  color: #888888;
+  margin-bottom: 45px;
+  line-height: 1.4;
+}
+
+.baking-cards {
+  overflow: hidden;
+}
+
+.card {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+.card h4 {
+  color: #303030;
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.card p {
+  color: #686868;
+  line-height: 1.8;
+}
+/* end our baking section */
+
+/* start contact information section */
+.contact {
+  overflow: hidden;
+}
+
+.contact-text {
+  width: 48%;
+  float: left;
+  padding-right: 40px;
+}
+
+.contact-map {
+  width: 48%;
+  float: left;
+}
+/* end contact information section */
+
+/* start about us section */
+.about-us {
+  background-color: #403d38;
+  overflow: hidden;
+}
+
+.about-us .column {
+  float: left;
+  width: 25%;
+  padding-right: 20px;
+}
+
+.about-us .column h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-us .column p {
+  color: #969696;
+}
+
+.about-us .column .list li {
+  color: #969696;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 10px;
+}
+
+.about-us .column .list .last {
+  border-bottom: none;
+}
+
+.about-us .column p i {
+  margin-right: 7px;
+}
+/* end about us section */
+
+/* start social section */
+.social {
+  background-color: #353330;
+  text-align: center;
+}
+
+.social-image {
+  width: 30%;
+  margin: 0 auto 20px;
+}
+
+.social p {
+  color: #777777;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.social ul li {
+  display: inline-block;
+  margin-right: 7px;
+  width: 40px;
+  height: 40px;
+}
+
+.social a {
+  border-radius: 50%;
+  background-color: #484540;
+  color: #8c8a86;
+  font-size: 20px;
+  padding: 10px;
+}
+/* end social section */
